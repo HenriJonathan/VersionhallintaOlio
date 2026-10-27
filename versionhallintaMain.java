@@ -18,7 +18,34 @@ auto1.kiihdyta();
 
         auto2.kiihdyta();
         auto2.naytaTiedot();
+               
+       versionhallintaAuto auto3 = new versionhallintaAuto();
+
+        auto3.merkki = "Toyota";
+        auto3.malli = " Corolla";
+        auto3.bensanMaara = 10;
+
+
+        auto3.kiihdyta();
+        // Välit
+        System.out.println("");
+        System.out.println("");
+        // Välit
+
+        auto3.naytaTiedot();
+    
+
+        versionhallintaAuto auto4 = new versionhallintaAuto();
+
+        auto4.merkki = "Toyota";
+        auto4.malli = " Prius";
+        auto4.bensanMaara = 10;
+
+        auto4.kiihdyta();
+        auto4.naytaTiedot();
+
+        auto4.naytaTiedot();
+    
 
  }
 } 
-
