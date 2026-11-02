@@ -1,4 +1,5 @@
 public class Main {
+    public class Main {
     public static void main(String[] args) {
         versionhallintaAuto auto = new versionhallintaAuto();
     
@@ -48,11 +49,14 @@ public int bensanMaara= 50;
         }
     }
 }vasionhallintaAuto4 auto = new versionhallintaAuto();
-        auto 4 merkki= toyota";
-        auto4.malli= "prius";
-        auto4.bensanMaara= 10;
-        auto4.naytaTiedot();
+        auto4.merkki= "ford";
+        auto4.malli= "focus";
+        auto4.bensanMaara= 40;
+
+
         auto4.kiihdyta();
         auto4.naytaTiedot();
         
     }
+}
+}
