@@ -46,6 +46,15 @@ System.out.println("");
         auto4.naytaTiedot();
 
         System.out.println("");
+
+    versionhallintaAuto auto5 = new versionhallintaAuto();
+
+    auto5.merkki = "Mitsubishi";
+    auto5.malli = " Galant";
+    auto5.bensanMaara = 20;
+
+    auto5.kiihdyta();
+    auto5.naytaTiedot();
     
 
  }
