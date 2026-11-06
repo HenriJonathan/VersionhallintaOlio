@@ -10,6 +10,8 @@ auto1.bensanMaara = 40;
 auto1.naytaTiedot();
 auto1.kiihdyta();
 
+System.out.println("");
+
     versionhallintaAuto auto2 = new versionhallintaAuto();
 
         auto2.merkki = "Audi";
@@ -18,6 +20,8 @@ auto1.kiihdyta();
 
         auto2.kiihdyta();
         auto2.naytaTiedot();
+
+        System.out.println(""); // väli
                
        versionhallintaAuto auto3 = new versionhallintaAuto();
 
@@ -27,12 +31,9 @@ auto1.kiihdyta();
 
 
         auto3.kiihdyta();
-        // Välit
-        System.out.println("");
-        System.out.println("");
-        // Välit
-
         auto3.naytaTiedot();
+        // Välit
+        System.out.println("");
     
 
         versionhallintaAuto auto4 = new versionhallintaAuto();
@@ -44,7 +45,7 @@ auto1.kiihdyta();
         auto4.kiihdyta();
         auto4.naytaTiedot();
 
-        auto4.naytaTiedot();
+        System.out.println("");
     
 
  }
